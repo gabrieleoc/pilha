@@ -12,7 +12,6 @@ class Pilha:
         if not self.esta_vazia():
             return self.itens.pop()
 
-# Exemplo de uso
 pilha = Pilha()
 pilha.empilhar('A')
 pilha.empilhar('B')
